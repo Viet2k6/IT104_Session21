@@ -1,12 +1,14 @@
 function Ex05() {
   return (
-    <div className="relative w-[300px] h-[200px] bg-blue-200 font-semibold border border-gray-300 rounded-lg p-4">
-      <span className="text-[#4482a2]">Relative parent</span>
-      <div className="absolute bottom-0 left-0 w-[120px] h-[50px] bg-[#0ea5e9] text-white flex items-center justify-center text-sm rounded-lg shadow-md">
-        Absolute child
+    <div className="relative w-[260px] h-[200px] bg-[#e0f7fa] border-2 border-[#b2ebf2] rounded-[10px] text-[#0369a1] p-3">
+      <div className="relative w-[210px] h-[160px] bg-[#b3e5fc] border-2 border-[#81d4fa] text-[#0369a1] p-4">
+        <p><b>Relative parent</b></p>
+        <div className="absolute bottom-0 left-0 bg-[#0288d1] text-white px-4 py-2 rounded-md">
+          <p>Absolute child</p>
+        </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Ex05;
